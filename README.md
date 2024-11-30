@@ -57,8 +57,8 @@
 - App.css           // Styles for the frontend</code></pre>
 
 <h3>Backend Components</h3>
-<pre><code>- main.py          // FastAPI backend entry point
-<br\>
+<pre><code>- main.py          // FastAPI backend entry point</code></pre>
+
 
 <h2>🚀 Local Development Setup</h2>
 

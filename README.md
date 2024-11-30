@@ -45,7 +45,6 @@
 <h3>Frontend</h3>
 <ul>
     <li>React.js</li>
-    <li>React Bootstrap</li>
     <li>React Router for navigation</li>
     <li>Context API for state management</li>
 </ul>

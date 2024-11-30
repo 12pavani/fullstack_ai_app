@@ -3,151 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThinkAI - AI-Powered Q&A System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        .section {
-            margin-bottom: 20px;
-        }
-
-        .emoji {
-            font-size: 18px;
-        }
-
-        .image-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-
-        .image-container img {
-            max-width: 400px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .code {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 8px;
-            font-family: 'Courier New', Courier, monospace;
-            display: block;
-            margin: 10px 0;
-        }
-
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-            background-color: #e7f3e7;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        a:hover {
-            background-color: #45a049;
-            color: white;
-        }
-
-        .badge {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: white;
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 16px;
-        }
-
-        .badge:hover {
-            background-color: #45a049;
-        }
-    </style>
 </head>
 <body>
 
-    <h1>🚀 ThinkAI: Your AI-Powered Question-Answering System</h1>
+<h1>🚀 ThinkAI: Your AI-Powered Question-Answering System</h1>
 
-    <div class="section">
-        <h2>🔧 Project Overview</h2>
-        <p>ThinkAI is an intelligent question-answering system that leverages OpenAI's GPT-3.5 model to provide answers to user queries in real time. Users can interact with the app by typing their questions, and the AI provides accurate and helpful answers instantly.</p>
-        <p>Built using <strong>React.js</strong> for the frontend and <strong>FastAPI</strong> with <strong>OpenAI API</strong> for the backend, this project demonstrates how to integrate modern web technologies to create an AI-powered web application.</p>
-    </div>
+<p>ThinkAI is an intelligent question-answering system powered by OpenAI's GPT-3.5 model. Users can ask questions, and the AI responds with accurate and relevant answers in real time. This web application leverages <strong>React.js</strong> for the frontend and <strong>FastAPI</strong> with the <strong>OpenAI API</strong> for the backend.</p>
 
-    <div class="section">
-        <h2>💻 Frontend & Backend</h2>
-        <p>Explore the frontend and backend components of the ThinkAI project:</p>
+<h2>🌐 Live Demo</h2>
+<ul>
+    <li><strong>Frontend:</strong> <a href="https://your-live-demo-link.com">https://your-live-demo-link.com</a></li>
+    <li><strong>Backend API:</strong> <a href="https://your-backend-api-link.com">https://your-backend-api-link.com</a></li>
+</ul>
 
-        <div class="image-container">
-            <div>
-                <h3>Frontend UI</h3>
-                <img src="frontend-image-path.jpg" alt="Frontend UI">
-            </div>
-            <div>
-                <h3>Backend Architecture</h3>
-                <img src="backend-image-path.jpg" alt="Backend Architecture">
-            </div>
-        </div>
-    </div>
+<h2>✨ Features</h2>
 
-    <div class="section">
-        <h2>⚙️ Technologies Used</h2>
-        <ul>
-            <li><span class="emoji">🌐</span> <strong>Frontend</strong>: React.js, CSS</li>
-            <li><span class="emoji">🖥️</span> <strong>Backend</strong>: FastAPI, OpenAI GPT-3.5</li>
-            <li><span class="emoji">🔑</span> <strong>API Integration</strong>: OpenAI API</li>
-            <li><span class="emoji">💾</span> <strong>Environment Variables</strong>: .env (for storing OpenAI API key)</li>
-        </ul>
-    </div>
+<h3>Real-time Question-Answering</h3>
+<ul>
+    <li>Ask any question, and get instant, relevant answers powered by GPT-3.5</li>
+    <li>Interactive user interface for seamless interaction</li>
+    <li>Instantaneous responses for any query</li>
+</ul>
 
-    <div class="section">
-        <h2>📂 Installation & Setup</h2>
-        <p>To set up the project locally, follow these steps:</p>
-        <ol>
-            <li>Clone the repository:</li>
-            <code class="code">git clone https://github.com/yourusername/thinkai.git</code>
+<h3>User Interface</h3>
+<ul>
+    <li>Simple and user-friendly design</li>
+    <li>Responsive layout optimized for desktops, tablets, and mobile devices</li>
+    <li>Real-time updates of user questions and AI responses</li>
+</ul>
 
-            <li>Navigate to the frontend directory and install dependencies:</li>
-            <code class="code">cd frontend && npm install</code>
+<h2>🛠️ Tech Stack</h2>
 
-            <li>Navigate to the backend directory and install dependencies:</li>
-            <code class="code">cd backend && pip install -r requirements.txt</code>
+<h3>Backend</h3>
+<ul>
+    <li>FastAPI</li>
+    <li>OpenAI GPT-3.5 API</li>
+    <li>Python 3.8+</li>
+    <li>CORS enabled for cross-origin requests</li>
+</ul>
 
-            <li>Create a <strong>.env</strong> file in the backend directory with your OpenAI API key:</li>
-            <code class="code">OPENAI_API_KEY=your-api-key-here</code>
+<h3>Frontend</h3>
+<ul>
+    <li>React.js</li>
+    <li>React Bootstrap</li>
+    <li>React Router for navigation</li>
+    <li>Context API for state management</li>
+</ul>
 
-            <li>Run the frontend and backend servers:</li>
-            <code class="code">npm start (for frontend) / uvicorn main:app --reload (for backend)</code>
-        </ol>
-    </div>
+<h2>💻 Components Structure</h2>
 
-    <div class="section">
-        <h2>💡 How It Works</h2>
-        <p>When the user submits a question through the app, the frontend sends the question to the FastAPI backend. The backend then queries the OpenAI API for an answer and returns the result to the frontend, where it is displayed to the user.</p>
-    </div>
+<h3>Context Components</h3>
+<pre><code>- QuestionContext.js   // Manages global question and answer state</code></pre>
 
-    <div class="section">
-        <h2>📈 Demo</h2>
-        <p>Check out the live demo of ThinkAI:</p>
-        <a href="https://your-live-demo-link.com" class="badge">Try it Now!</a>
-    </div>
+<h3>UI Components</h3>
+<pre><code>- NavBar.js         // Navigation bar with links
+- QuestionForm.js    // Form for submitting questions
+- AnswerDisplay.js   // Display AI-generated answers
+- LoadingSpinner.js  // Display loading indicator while waiting for response</code></pre>
 
-    <div class="section">
-        <h2>📄 License</h2>
-        <p>This project is licensed under the <strong>MIT License</strong>.</p>
-    </div>
+<h3>Backend Components</h3>
+<pre><code>- main.py          // FastAPI backend entry point
+- ai.py             // Handles OpenAI API calls</code></pre>
+
+<h2>🚀 Local Development Setup</h2>
+
+<h3>Backend Setup</h3>
+
+1. Clone the repository
+<pre><code>git clone https://github.com/yourusername/thinkai.git
+cd thinkai</code></pre>
+
+2. Create a virtual environment
+<pre><code>python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate</code></pre>
+
+3. Install dependencies
+<pre><code>pip install -r requirements.txt</code></pre>
+
+4. Set up environment variables (.env)
+<pre><code>OPENAI_API_KEY=your-openai-api-key-here</code></pre>
+
+5. Run the backend server
+<pre><code>uvicorn main:app --reload</code></pre>
+
+<h3>Frontend Setup</h3>
+
+1. Navigate to the frontend directory
+<pre><code>cd frontend</code></pre>
+
+2. Install dependencies
+<pre><code>npm install</code></pre>
+
+3. Set up environment variables (.env)
+<pre><code>REACT_APP_API_URL=http://localhost:8000</code></pre>
+
+4. Start the frontend server
+<pre><code>npm start</code></pre>
+
+<h2>📡 API Endpoints</h2>
+
+<h3>Question-Answering</h3>
+<pre><code>POST /ask             - Send a question to the AI for an answer</code></pre>
+
+<h2>🔄 Example Usage</h2>
+<pre><code>// Example of sending a question from the frontend
+const response = await fetch(`${process.env.REACT_APP_API_URL}/ask`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ question: 'What is React.js?' })
+});
+
+const data = await response.json();
+console.log(data.answer); // Logs the AI-generated answer</code></pre>
+
+<h2>🚀 Deployment</h2>
+
+<h3>Backend Deployment</h3>
+<ol>
+    <li>Create a new Web Service on Render or your preferred platform</li>
+    <li>Set the environment variable for OpenAI API key</li>
+    <li>Deploy the backend service with FastAPI and Uvicorn</li>
+</ol>
+
+<h3>Frontend Deployment</h3>
+<ol>
+    <li>Deploy the frontend on platforms like Render, Netlify, or Vercel</li>
+    <li>Connect the deployed frontend to the backend API</li>
+</ol>
+
+<h2>🔐 Security Features</h2>
+<ul>
+    <li>Environment variables for API keys</li>
+    <li>Cross-origin resource sharing (CORS) protection</li>
+</ul>
+
+<h2>🐛 Troubleshooting</h2>
+Common issues and solutions:
+<ul>
+    <li>API errors: Verify your OpenAI API key and network connection</li>
+    <li>CORS issues: Ensure your frontend URL is allowed in the backend CORS settings</li>
+</ul>
+
+<h2>📱 Responsive Design</h2>
+The application is fully responsive and tested on:
+<ul>
+    <li>Desktop (1200px+)</li>
+    <li>Tablet (768px - 1199px)</li>
+    <li>Mobile (320px - 767px)</li>
+</ul>
+
+<h2>🤝 Contributing</h2>
+<ol>
+    <li>Fork the repository</li>
+    <li>Create a feature branch</li>
+    <li>Commit your changes</li>
+    <li>Push your branch</li>
+    <li>Create a Pull Request</li>
+</ol>
+
+<h2>📄 License</h2>
+<p>This project is licensed under the MIT License.</p>
+
+<p>Made with ❤️ by Vislavath Pavani</p>
 
 </body>
 </html>

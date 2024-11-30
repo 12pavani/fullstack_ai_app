@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThinkAI Project</title>
-</head>
-<body>
 
     <h1>🚀 ThinkAI: Your AI-Powered Question-Answering System</h1>
     
@@ -78,5 +70,3 @@
         <p>This project is licensed under the <strong>MIT License</strong>.</p>
     </div>
 
-</body>
-</html>

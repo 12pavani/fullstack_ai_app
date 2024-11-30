@@ -10,12 +10,6 @@
 
 <p>ThinkAI is an intelligent question-answering system powered by OpenAI's GPT-3.5 model. Users can ask questions, and the AI responds with accurate and relevant answers in real time. This web application leverages <strong>React.js</strong> for the frontend and <strong>FastAPI</strong> with the <strong>OpenAI API</strong> for the backend.</p>
 
-<h2>🌐 Live Demo</h2>
-<ul>
-    <li><strong>Frontend:</strong> <a href="https://your-live-demo-link.com">https://your-live-demo-link.com</a></li>
-    <li><strong>Backend API:</strong> <a href="https://your-backend-api-link.com">https://your-backend-api-link.com</a></li>
-</ul>
-
 <h2>✨ Features</h2>
 
 <h3>Real-time Question-Answering</h3>

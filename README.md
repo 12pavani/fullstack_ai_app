@@ -58,7 +58,7 @@
 
 <h3>Backend Components</h3>
 <pre><code>- main.py          // FastAPI backend entry point
-
+-
 
 <h2>🚀 Local Development Setup</h2>
 

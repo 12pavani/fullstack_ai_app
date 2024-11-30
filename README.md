@@ -78,6 +78,8 @@ source venv/bin/activate  # For Windows: venv\Scripts\activate</code></pre>
 
 <h3>Frontend Setup</h3>
 
+![Backend](front-end.png)
+
 1. Navigate to the frontend directory
 <pre><code>cd frontend</code></pre>
 

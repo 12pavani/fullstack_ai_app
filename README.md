@@ -52,18 +52,13 @@
 
 <h2>💻 Components Structure</h2>
 
-<h3>Context Components</h3>
-<pre><code>- QuestionContext.js   // Manages global question and answer state</code></pre>
-
-<h3>UI Components</h3>
-<pre><code>- NavBar.js         // Navigation bar with links
-- QuestionForm.js    // Form for submitting questions
-- AnswerDisplay.js   // Display AI-generated answers
-- LoadingSpinner.js  // Display loading indicator while waiting for response</code></pre>
+<h3>Frontend Components</h3>
+<pre><code>- App.js            // Main React component
+- App.css           // Styles for the frontend</code></pre>
 
 <h3>Backend Components</h3>
 <pre><code>- main.py          // FastAPI backend entry point
-- ai.py             // Handles OpenAI API calls</code></pre>
+
 
 <h2>🚀 Local Development Setup</h2>
 

@@ -57,6 +57,8 @@
 
 <h3>Backend Setup</h3>
 
+![Backend](back-end.png)
+
 1. Clone the repository
 <pre><code>git clone https://github.com/yourusername/thinkai.git
 cd thinkai</code></pre>

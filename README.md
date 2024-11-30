@@ -1,6 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkAI - AI-Powered Q&A System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .emoji {
+            font-size: 18px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .code {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            display: block;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #e7f3e7;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #45a049;
+            color: white;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+        .badge:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
 
     <h1>🚀 ThinkAI: Your AI-Powered Question-Answering System</h1>
-    
+
     <div class="section">
         <h2>🔧 Project Overview</h2>
         <p>ThinkAI is an intelligent question-answering system that leverages OpenAI's GPT-3.5 model to provide answers to user queries in real time. Users can interact with the app by typing their questions, and the AI provides accurate and helpful answers instantly.</p>
@@ -70,3 +149,5 @@
         <p>This project is licensed under the <strong>MIT License</strong>.</p>
     </div>
 
+</body>
+</html>
